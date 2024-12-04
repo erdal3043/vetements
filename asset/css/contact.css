@@ -1,0 +1,118 @@
+
+section{
+    height: 130vh;
+}
+ .connexion h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ padding-top: 200px;
+ padding-bottom: 95px;
+    text-align: center;
+}
+ .clogin{
+    margin-top: 45px;
+ }
+.nmembre{
+    width: 340px;
+    height: 240px;
+    margin-left: 220px;
+   
+}
+.nmembre .dclient h2{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.nmembre .dclient p{
+    margin-top: 10px;
+}
+.nmembre .nclient h3{
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.nmembre .nclient p{
+    margin-top: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.nmembre button{
+    width: 100%;
+ margin-top: 17px;
+ color: white;
+}
+.nmembre button a{
+    color: white;
+}
+
+.cform{
+    width: 430px;
+    height: 460px;
+ float: right;
+ margin-top: -240px;
+ margin-right: 220px;
+   
+}
+.cform .titre h3{
+    
+    letter-spacing: 1px;
+}
+.cform .flogin  .femail p{
+    margin-bottom: 5px;
+}
+.cform .flogin  .femail input{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}.cform .flogin  .fpassword p{
+    margin-bottom: 5px;
+}
+.cform .flogin  .fpassword input{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}
+.cform .flogin button{
+    width: 100%;
+}
+.flogin .femail{
+    margin-top: 15px;
+}
+.flogin .fpassword{
+    margin-top: 20px;
+}
+.flogin .fsouviens{
+    margin-top: 20px;
+}
+
+.flogin .fbtn{
+    margin-top: 20px;
+}
+.mpoublie{
+    margin-top: 20px;
+}
+.flogin .trait{
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+.flogin .ou{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.flogin .fiocons i{
+    margin-top: 5px;
+  font-size: 50px;
+  padding: 0px 5px;
+}
+.flogin .fiocons .fa-google-plus-g{
+    color: red;
+}
+.flogin .fiocons .fa-facebook-square{
+    color: blue;
+}

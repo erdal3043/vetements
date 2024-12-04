@@ -1,0 +1,204 @@
+header{
+    
+     background:#2d2d2d; 
+    width: 100%;
+    height: 82px;
+    display: flex; 
+    align-items: center;
+  
+}
+.header .logo{
+   color: white;
+   font-size: 2.6rem;
+   letter-spacing: 3px;
+   margin-left: 5%;
+   text-transform: uppercase;
+   padding: 1%;
+}
+.header .logo span{
+    color: red;
+}
+
+.header .fh{
+  padding: 0px 15px;
+}
+.women {
+    background: #525252;
+   padding: 20px 15px;
+}
+.women a{
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: bold;
+   font-size: 1.3rem;
+   color: #fff;
+}
+.page{
+    position: relative;
+    width: 90px;
+    height: 100%;
+   margin-left: -15px;
+}
+.header .my-page a{
+    position: absolute;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    
+}
+.header .page:hover{
+    background: gray;
+}
+.recherche {
+    display: flex; 
+  width: 497px;
+  height: 34px;
+  padding: 0px 15px;
+  
+}
+.recherche input{
+    width: 92%;
+    height: 100%;
+    border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+}
+.recherche .search {
+padding: 15px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.r-icon {
+    background: white;
+    width: 8%;
+     font-size: 1.3rem;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+}
+.r-icon i{
+    padding: 8px;
+    
+}
+.langue-menu{
+    width: 50px;
+    text-align: right;
+    font-weight: bold;
+    position: relative;
+    border-right: 1px solid white;
+}
+.chevron i{
+    color: white;
+    margin-right: 30px;
+    
+
+}
+.langue-menu .selected-langue{
+    display: flex;   
+    /* justify-content: space-between; */
+    line-height: 2;
+    cursor: pointer;
+    
+}
+.langue-menu .selected-langue:before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(https://www.countryflags.io/fr/flat/64.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.langue-menu ul{
+    /* margin: 0;
+    padding: 0; */
+    display: none;
+    background-color: #fff;
+    border: 2px solid #f8f8f8;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    
+     text-align: center;
+    width: 70px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+.langue-menu ul li{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.langue-menu ul li a{
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+    
+}
+.langue-menu ul li:hover{
+    background-color: #f2f2f2;
+}
+.langue-menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fr:before {
+    background-image: url(https://www.countryflags.io/fr/flat/64.png);
+    border-radius: 50px;
+}
+
+.tr:before {
+    background-image: url(https://www.countryflags.io/tr/flat/64.png);
+}
+.de:before {
+    background-image: url(https://www.countryflags.io/de/flat/64.png);
+}
+.gb:before {
+    background-image: url(https://www.countryflags.io/gb/flat/64.png);
+}
+.langue-menu:hover ul {
+    display: block;
+}
+.icon-header{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+.icon-header .left{
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.circle{
+    margin-bottom: 15px;
+   width: 15px;
+   height: 15px;
+    background: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
+
+.price{
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}

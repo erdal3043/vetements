@@ -1,0 +1,58 @@
+.nouveautes{
+    padding-top: 8%;
+}
+.nouveautes .titre{
+    text-align: center;
+}
+.nouveautes .titre h2{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nouveautes .container{
+    width: 100%;
+    height: 550px;
+    padding-top: 5%;
+}
+.nbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nbox .nboxl{
+    width: 35%;
+    height: 550px;
+}
+.nboxl .image{
+    width: 70%;
+    height: 440px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.nboxl img{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+.nboxr{
+    width: 65%;
+    height: 430px;
+    display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
+  
+    
+}
+.nboxr .image{
+    width: 150px;
+    height: 180px;
+    margin: 5px;
+}
+.nboxr img{
+    width: 100%;
+    height: 100%;
+}
+
+

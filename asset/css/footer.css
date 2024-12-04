@@ -1,0 +1,116 @@
+.footer{
+    width: 100%;
+    height: 500px;
+   padding-top: 50px;
+    
+}
+.footer .social-bank{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: #fff;
+height: 90px;
+padding: 10px;
+   border-top: 1px solid rgba(238, 233, 233, 0.993);   
+}
+
+.footer .icon-social{
+    border-right: 1px solid rgba(128, 128, 128, 0.774);
+    margin-right: 25px;
+    padding: 15px;
+    height: 60px;
+}
+.footer .icon-social a{
+    padding: 10px;   
+}
+.footer .icon-social i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+} 
+.footer .icon-social .fa-facebook{
+    background: blue;
+    color: white;
+    
+}
+.footer .icon-social .fa-instagram{
+    background: rgb(238, 42, 42);
+    color: white;
+}
+.footer .icon-social .fa-twitter{
+    background: blue;
+    color: white;
+}
+.footer .icon-social .fa-pinterest{
+    color: white;
+    background: red;
+}
+.footer .social-bank  .bank{
+    margin-left: 5px;
+}
+.footer .social-bank  .bank a{
+    font-size: 20px;
+    padding: 10px;
+}
+.footer .social-bank  .bank i{
+    font-size: 20px;
+    padding: 10px;   
+}
+.footer .social-bank  .bank .fa-cc-mastercard{
+    background: blue;
+    color: white;
+}
+.footer .social-bank  .bank .fa-cc-visa{
+    background: blue;
+    color:white;
+}
+.footer .social-bank  .bank .fa-cc-amex{
+   background: blue;
+    color: white;   
+}
+.footer .lien-utile{
+    display: flex;
+    justify-content: space-around;
+   padding: 20px;
+   height: 300px;
+}
+.footer .lien-utile,
+.apropos .titre h2,
+.Servicesclients .titre h2,
+.rsociaux .titre h2,
+.politiques .titre h2{ 
+    font-size: 2rem;
+    padding: 5px;
+    color: #c5c5c6;
+}
+.lien-utile,
+.apropos ul li a,
+.Servicesclients ul li a,
+.rsociaux ul li a,
+.politiques ul li a{ 
+    font-size: 1.1rem;
+    letter-spacing: 2px;   
+    line-height: 31px;
+    color: black;
+   margin-left: 5px;
+}
+.lien-utile,
+.apropos ul,
+.Servicesclients ul,
+.rsociaux ul,
+.politiques ul{ 
+   padding-top: 25px;
+}
+
+.copyright{
+    background: #ddd;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    ;
+}  
+.copyright{
+   padding-top: 25px;
+   letter-spacing: 2px; 
+}

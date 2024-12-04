@@ -1,0 +1,171 @@
+.banniere{
+    padding-top: 50px;
+    
+}
+.banniere .container{
+    width: 100%;
+    height: 80vh;
+}
+.container .box{
+    display: flex;
+
+}
+.box .boxleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.box .boxright{
+    width: 50%;
+    height: 80vh;
+   margin-left: 15px;
+}
+
+.box .boxleft .blokl{ 
+ position: relative;
+  width: 55%;
+  height: 80vh;
+  overflow: hidden;  
+}
+.box .boxleft .blokl video{
+position:relative;
+ object-fit: cover;
+    width: 100%;
+    height: 80vh;
+   z-index: -100;
+}
+.blokl .text {  
+    position: absolute;
+    top: 68%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+    padding: 5%;
+    width: 250px;
+    text-align: center;
+}
+.blokl .text p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    line-height: 39px;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 45px;
+   
+}
+.blokl .text button{
+    background: blue;
+    width: 160px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+ .boxleft .blokr{
+    width: 43%;
+    height: 80vh;
+    position: relative;
+} 
+
+.boxleft .image{
+    position: absolute;
+   width: 100%;
+   height: 100%;
+   background: url(../images/2.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center; 
+}
+
+/* .boxright .images1, .images2:hover img1{
+    transform: scale(1);
+} */
+
+.boxleft .blokr .image .text1{
+    
+    position: absolute;
+    margin-top:310px;
+    text-align: center;
+    
+}
+.boxleft .blokr .image .text1 p{
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+   padding:0 0 5% 0;
+}
+.box .boxleft .img{
+    background: url(../images/img4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: 999;
+} 
+
+.box .boxright .images1{
+    background: url(../images/3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 38vh;
+    margin-right: 0px;
+}
+.boxright .images1 .text{
+    float: right;
+    margin-top: 0px;
+    width: 400px;
+    padding: 5% ;
+   
+} 
+.boxright .images1 .text p{
+   color: white;
+   font-size: 2.2rem;
+   letter-spacing: 2px;
+   font-weight: bold;
+   margin-left: 60px;
+   padding-bottom: 5%;
+   right: 0;
+}
+.boxright .images1 .text .btn{
+margin-left: 60px;
+width: 220px;
+padding: 15px;
+}
+.box .boxright .images2{
+    background: url(../images/4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 40vh;
+    margin-top: 2vh;
+}
+
+.boxright .images2 .text{
+    float: right;
+    margin-top: 0px;
+    width: 400px;
+    padding: 5% ;
+   
+} 
+.boxright .images2 .text p{
+   color: white;
+   font-size: 2.2rem;
+   letter-spacing: 2px;
+   font-weight: bold;
+   margin-left: 60px;
+   padding-bottom: 5%;
+   right: 0;
+}
+.boxright .images2 .text .btn{
+margin-left: 60px;
+width: 220px;
+padding: 15px;
+}

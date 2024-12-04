@@ -1,0 +1,206 @@
+.bienvenue{
+    height: 100%;
+}
+.bienvenue .titre{
+    text-align: center;
+}
+.bienvenue .titre h1{
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    padding-top: 220px;
+    padding-bottom: 10px;
+}
+.bcontainere{
+    width: 920px;
+    height: 780px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    box-shadow:0px 12px 10px 0px rgba(0,0,0,0.11) ;
+}
+.blbox{
+    width: 407px;
+    height: 100%;
+   
+}
+.blbox .bimages{
+    width: 200px;
+    height: 424px;
+}
+.blbox  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ .trait{
+    margin-top: 60px;
+   border: 1px solid #808080;
+
+} 
+.blbox .circle{
+    width: 90px;
+    height: 90px;
+    margin-left: 158px;
+    background: rgb(43, 42, 42); 
+    margin-top: -45px;
+      opacity: 0.2;
+      border-radius: 50%;
+     
+      
+}
+.blbox .ou p{
+   text-align: center;
+   margin-top: -80px;
+   font-size: 1.8rem;
+   
+  /* border-radius: 50%; */
+}
+.blbox .fiocons{
+text-align: center;
+margin-top: 60px;
+}
+.blbox .fiocons i{
+    
+  font-size: 80px;
+  padding: 0px 5px;
+}
+.blbox .fiocons .fa-google-plus-g{
+    color: red;
+}
+.blbox .fiocons .fa-facebook-square{
+    color: blue;
+}
+
+.ncform{
+    width: 407px;
+    height: 100%;
+   
+}
+.bienvenue .ncform .titre h3{
+   letter-spacing: 2px;
+   font-size: 25px;
+  text-align: left;
+}
+.bienvenue .ncform .titre p{
+   letter-spacing: 2px;
+text-align: left;
+margin-top: 30px;
+}
+.nclogin .prenom p{
+    margin-top: 20px;
+}
+.nclogin .prenom input{
+width: 100%;
+height: 35px;
+margin-top: 5px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+.nclogin .last-name p{
+    margin-top: 20px;
+}
+.nclogin .last-name input{
+width: 100%;
+height: 35px;
+margin-top: 5px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+.nclogin .ncemail p{
+    margin-top: 20px;
+}
+.nclogin .ncemail input{
+width: 100%;
+height: 35px;
+margin-top: 5px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+.phone input{
+    margin-top: 20px;
+width: 245px;
+height: 35px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+
+
+.nclogin .ncpassword p{
+    margin-top: 20px;
+}
+.nclogin .ncpassword input{
+width: 100%;
+height: 35px;
+margin-top: 5px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+.nclogin .confirm-password p{
+    margin-top: 20px;
+}
+.nclogin .confirm-password input{
+width: 100%;
+height: 35px;
+margin-top: 5px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+
+.checkbox{
+    margin-top: 20px;
+}
+.conditions p{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.ncbtn2 {
+    margin-top: 20px;
+    width: 100%;
+    height: 35px;
+   
+}
+.nclogin .ncbtn2 button{
+    width: 100%;
+    background: blue;
+}
+.nclogin .ncbtn2 button:hover{
+    background-color: rgb(29, 29, 247);
+}
+@media screen and(max-width: 970px){
+    .bienvenue{
+        width: 100%;
+        color: aqua;
+    }
+    .bcontainere{
+       flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;   
+        height: 100%;
+        text-align: center;
+        color: aqua;
+    }
+    
+    .footer .social-bank,
+    .footer .lien-utile{
+        display: block;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+}
+@media screen and(max-width: 350px){
+    .bcontainere{
+      
+        flex-direction: column;
+        color: aqua;
+    
+       height: 100%;
+        margin: auto;
+        
+    }
+    .bienvenue{
+        padding: 20px;
+    }
+}

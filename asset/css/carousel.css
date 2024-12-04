@@ -1,0 +1,16 @@
+.carousel{
+    padding-top: 190px;
+  
+  height: 400px;
+  margin: 0 auto;
+}
+.owl-carousel .box{
+    width: 165px;
+    height: 164px;
+       
+}
+.owl-carousel img{
+    width: 100%;
+    height: 100%;
+}
+

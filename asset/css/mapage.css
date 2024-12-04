@@ -1,0 +1,105 @@
+
+.mapage{
+   padding-top: 18%; 
+   height: 100%;  
+}
+.mapage .titre{
+text-align: center;
+}
+.mapage .titre h1{
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+.mapage .container{
+margin-top: 5%;
+display: flex;
+justify-content: space-around;
+
+
+}
+.mpbox{
+    width: 65%;
+   margin-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.mpboxr{
+     
+    margin-top: 90px;
+    border: 1px solid red;
+}
+.mapage .produits{
+    width: 240px;
+    height: 420px;
+    margin: 15px;
+}
+.mapage .pimage img{
+   width: 100%;
+  
+}
+.mapage .pimage a {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    background: white;
+    border-radius: 50px;
+    
+    /* z-index: 100; */
+}
+.mapage .pimage i{
+    font-size: 1rem;
+    padding: 5px;
+    color: black;  
+    
+}
+.mapage .produits .info h2{
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 5px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.mapage .produits .prices{
+    padding: 5px 0 0 5px;
+}
+.mapage .produits .border{
+    display: flex;
+    
+}
+.mapage .produits .border a{
+    font-size: 1.rem;  
+    padding: 5px;
+}
+
+.lorem1{
+    display: flex;
+    justify-content: space-evenly;  
+  height: 100px;
+ 
+  border: 2px solid red;
+}
+.lorem1 .logo{
+   width: 33%;
+   border: 2px solid red;
+   border-radius: 50%;
+   
+}
+.lorem1 .logo a{
+    margin-top: 300px;
+    margin-left: 40px;
+}
+.lorem1 .nom{
+    width: 33%;
+    margin-top: 30px;
+margin-left: 20px;
+   border: 2px solid red;
+}
+.lorem1 .suivre{
+    width: 33%;
+    margin-top: 30px;
+margin-left: 20px;
+    border: 2px solid red;
+    
+}

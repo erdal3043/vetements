@@ -1,0 +1,63 @@
+.info-acheteur{
+    padding-top: 5%;
+    width: 100%;
+    
+   
+}
+.info-acheteur .titre1 h2{
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+    line-height: 2.9rem;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.info-acheteur .titre1 p{
+    padding-top: 5px;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+   font-weight: 500;
+   color: black;
+}
+.info-acheteur .titre2 h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 2.9rem;
+   margin-top: 15px;
+    font-weight: 500;
+}
+.info-acheteur .titre2 p{
+    padding-top: 5px;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+   font-weight: 500;
+   color: black;
+}
+.info-acheteur .abonner{
+    text-align: center;
+    padding-top: 5%;
+    
+}
+.info-acheteur .abonner .email{
+    padding: 5px 0 19px 0;
+}
+
+.info-acheteur .info-icon a i{
+    font-size: 2.5rem;
+    background: black;
+    color: white;
+    padding: 9px;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.info-acheteur .abonner input{
+    width: 500px;
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}

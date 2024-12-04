@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+main{
+  width: 80%;
+  margin: auto;
+  padding: 5%;
+}
+button,
+input,
+textarea,
+.btn {
+  outline: none;
+  border: none; 
+  font-family: inherit;
+}
+
+.btn, button{
+  background: blue;
+    width: 160px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+button,.btn:hover{
+  background: black;
+  
+}

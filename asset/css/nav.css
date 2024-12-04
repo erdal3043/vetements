@@ -1,0 +1,51 @@
+.navigation{ 
+position: relative;
+    width: 100%;
+    height: 50px;
+    background: #525252;
+    
+}   
+.navbar{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+.navbar ul li{  
+   text-align: center;
+    padding: 10px 12px;
+}   
+.navbar a{
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.nav-menu:hover .megamenu{
+position: absolute;
+    background: #525252;
+    width: 100%;
+   top: 50px;
+    height: 90px;
+    text-align: center;
+}
+/* .vente{
+    position: absolute;
+    background: #525252;
+    width: 90%;
+   top: 50px;
+    padding: 20px;
+}
+.nav-menu .vente:hover{
+     display: block; 
+     transition: all 0.3s ease-in; 
+     top: 55px; 
+}
+.vente .container{
+    display: flex;   
+}
+.container a{
+   float: left;
+}  */
+
